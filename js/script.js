@@ -135,7 +135,7 @@ function showAlert(modalId, message, imageUrl) {
 // Tambahkan event ke tombol Yes dan No
 yesBtn.onclick = function() {
     modal.style.display = "none"; // Tutup modal utama
-    showAlert("successAlert", "Successfully adopted this pet!", "/src/thumbs-up-cat.gif");
+    showAlert("successAlert", "Successfully adopted this pet!", "/images/thumbs-up-cat.gif");
 };
 
 // Membuat event untuk tombol No
@@ -144,7 +144,7 @@ yesBtn.onclick = function() {
 // dan gambar "/src/sad cats.jpg"
 noBtn.onclick = function() {
     modal.style.display = "none"; // Tutup modal utama
-    showAlert("noAlert", "Returning to the adoption menu.", "/src/sad cats.jpg");
+    showAlert("noAlert", "Returning to the adoption menu.", "/images/sad cats.jpg");
 };
 
 
