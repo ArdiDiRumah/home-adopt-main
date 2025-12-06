@@ -809,6 +809,99 @@ footer .credit a {
     padding: 10px 10px 20px;
 }
 
+/* komentar */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.komentar-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.btn-upload,
+.btn-kirim,
+.btn-balas,
+.btn-hapus {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.btn-kirim {
+  background-color: #253237;
+  color: white;
+}
+
+.btn-upload:hover,
+.btn-kirim:hover,
+.btn-balas:hover,
+.btn-hapus:hover {
+  background-color: white;
+  color: #253237;
+}
+
+.btn-balas {
+  background-color: #253237;
+  color: white;
+  margin-right: 8px;
+}
+
+/* .btn-hapus {
+  background-color: #f44336;
+  color: white;
+} */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.textarea-komentar {
+  width: 100%;
+  padding: 10px;
+  resize: vertical;
+}
+
+.daftar-komentar {
+  margin-top: 30px;
+}
+
+.komentar-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.komentar-isi {
+  flex: 1;
+}
+
+.komentar-nama {
+  margin: 0 0 5px;
+}
+
+.komentar-teks {
+  margin: 0 0 10px;
+}
 
 
 /* medaia query */
